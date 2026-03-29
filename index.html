@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quinta dos Lagares</title>
+
+<style>
+body {margin:0;font-family:Arial,sans-serif;color:#333;}
+.hero {
+  height:90vh;
+  background:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') center/cover no-repeat;
+  display:flex;align-items:center;justify-content:center;
+  text-align:center;color:white;
+}
+.overlay {background:rgba(0,0,0,0.5);padding:40px;border-radius:10px;}
+h1 {font-size:48px;margin:0;}
+.btn {display:inline-block;margin-top:20px;padding:12px 20px;background:#25D366;color:#fff;text-decoration:none;border-radius:8px;font-weight:bold;}
+.section {padding:60px 20px;max-width:900px;margin:auto;}
+.dark {background:#f5f5f5;}
+h2 {font-size:32px;}
+.gallery {display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;}
+.gallery img {width:100%;height:180px;object-fit:cover;border-radius:10px;}
+.review {background:#fff;padding:15px;border-radius:10px;margin:10px 0;box-shadow:0 2px 6px rgba(0,0,0,0.1);}
+iframe {width:100%;height:300px;border:0;border-radius:10px;}
+footer {text-align:center;padding:20px;background:#222;color:white;}
+input, textarea {width:100%;padding:10px;margin:5px 0;border-radius:6px;border:1px solid #ccc;}
+button {background:#25D366;color:white;padding:10px 15px;border:none;border-radius:6px;}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="overlay">
+    <h1>Quinta dos Lagares</h1>
+    <p>Rust, natuur en ontspanning in Portugal</p>
+    <a class="btn" href="https://wa.me/31652443499">📲 Boek via WhatsApp</a>
+  </div>
+</header>
+
+<!-- OVER -->
+<section class="section">
+  <h2>Over het huis</h2>
+  <p>
+    Ontsnap aan de drukte en geniet van rust, natuur en comfort in Quinta dos Lagares.
+    Een sfeervol vakantiehuis in het groene hart van Portugal.
+  </p>
+</section>
+
+<!-- FACILITEITEN -->
+<section class="section dark">
+  <h2>Faciliteiten</h2>
+  <ul>
+    <li>Geschikt voor 2–3 personen</li>
+    <li>Volledig ingerichte keuken</li>
+    <li>Comfortabele slaapkamer</li>
+    <li>Badkamer met douche</li>
+    <li>Ruim terras</li>
+  </ul>
+</section>
+
+<!-- FOTO GALERIJ -->
+<section class="section">
+  <h2>Foto’s</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511">
+    <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae">
+    <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688">
+    <img src="https://images.unsplash.com/photo-1501183638710-841dd1904471">
+  </div>
+</section>
+
+<!-- OMGEVING + MAPS -->
+<section class="section dark">
+  <h2>Locatie</h2>
+  <p>Gelegen in het rustige en groene hart van Portugal.</p>
+
+  <iframe 
+    src="https://www.google.com/maps?q=Portugal&output=embed">
+  </iframe>
+</section>
+
+<!-- PRIJZEN -->
+<section class="section">
+  <h2>Prijzen</h2>
+  <p><b>Laagseizoen:</b> €425 per week</p>
+  <p><b>Hoogseizoen:</b> €525 per week</p>
+</section>
+
+<!-- REVIEWS -->
+<section class="section dark">
+  <h2>Reviews</h2>
+
+  <div class="review">
+    ⭐⭐⭐⭐⭐<br>
+    “Heerlijk rustig verblijf, prachtige natuur!”
+  </div>
+
+  <div class="review">
+    ⭐⭐⭐⭐⭐<br>
+    “Perfect huisje om helemaal tot rust te komen.”
+  </div>
+
+  <div class="review">
+    ⭐⭐⭐⭐⭐<br>
+    “We komen zeker terug!”
+  </div>
+</section>
+
+<!-- BOEKING FORM -->
+<section class="section">
+  <h2>Boeken / Contact</h2>
+
+  <p>Email: <a href="mailto:suijtenmarjanne@gmail.com">suijtenmarjanne@gmail.com</a></p>
+  <p>WhatsApp: <a href="https://wa.me/31652443499">Stuur bericht</a></p>
+
+  <h3>Beschikbaarheid checken</h3>
+  <form>
+    <input type="text" placeholder="Naam">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Bericht / gewenste data"></textarea>
+    <button type="button">Versturen</button>
+  </form>
+</section>
+
+<footer>
+  © 2026 Quinta dos Lagares
+</footer>
+
+</body>
+</html>
